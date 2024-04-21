@@ -21,7 +21,7 @@ VIRTIO_ISO="ISOimages:iso/virtio-win.iso" # Location of virtio driver ISO
 
 * Define dedicated username and password which should be created during deployment
 * Adjust network setup (in the example VLAN `401` with `vmbr0` will be used to deploy the VM)
-* Run the script by invoking the script on your Proxmox Host
+* Run the script by invoking the script on your Proxmox Host - depending on your download and disk speed it takes 30 to 60 minutes.
 
 ## Feedback
 For feedback write an email to rOger_at_sekureco42.ch
