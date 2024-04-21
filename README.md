@@ -6,6 +6,7 @@ For more details see my blog on https://www.sekureco42.ch/, `Deploy Windows 11 D
 
 ## Usage
 * Modify first section with your settings:
+
 ```bash
 # --- Start Config Section
 USERNAME= # if defined a user will be added as local administrator
@@ -18,9 +19,9 @@ VIRTIO_ISO="ISOimages:iso/virtio-win.iso" # Location of virtio driver ISO
 # --- End Config Section
 ```
 
-** Define dedicated username and password which should be created during deployment
-** Adjust network setup (in the example VLAN `401` with `vmbr0` will be used to deploy the VM)
-** Run the script by invoking the script on your Proxmox Host
+* Define dedicated username and password which should be created during deployment
+* Adjust network setup (in the example VLAN `401` with `vmbr0` will be used to deploy the VM)
+* Run the script by invoking the script on your Proxmox Host
 
 ## Feedback
 For feedback write an email to rOger_at_sekureco42.ch
