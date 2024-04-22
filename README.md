@@ -2,7 +2,7 @@
 ## Purpose
 This script is intended to deploy Windows 11 Development VM to your proxmox instance. It will download an actual VMWare image to your Proxmox host, extracts it, imports it into Proxmox; adjusts hardware settings, starts the system and waits until you install the Virtio drivers to enable QEMU agent which then will be used to add an additional user to the system as local administrator and installs OpenSSH server for connection from an Ansible host.
 
-For more details see my blog on https://www.sekureco42.ch/, `Deploy Windows 11 Dev VM to Proxmox`
+For more details see my blog on https://www.sekureco42.ch/posts/deploy-windows-11-dev-vm-to-proxmox/, `Deploy Windows 11 Dev VM to Proxmox`
 
 ## Usage
 * Modify first section with your settings:
